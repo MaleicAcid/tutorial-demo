@@ -8,7 +8,6 @@ $src = imread( $imageName, IMREAD_COLOR ); // Load an image
 if( empty($src) ) {
 	return -1; 
 }
-	 imshow($window_name, $src);
 
 $anchor = new Point(-1, -1);
 $delta = 0;
